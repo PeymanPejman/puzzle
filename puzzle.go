@@ -9,6 +9,7 @@ import (
 )
 
 ////////////// Priority Queue //////////////
+
 type PriorityQueue []*Item
 
 func (pq PriorityQueue) Len() int { return len(pq) }
